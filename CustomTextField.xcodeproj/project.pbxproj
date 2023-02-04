@@ -11,6 +11,8 @@
 		E91873A9298AEBA800F007AE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91873A8298AEBA800F007AE /* ViewController.swift */; };
 		E91873AB298AEBA900F007AE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E91873AA298AEBA900F007AE /* Assets.xcassets */; };
 		E91873AE298AEBA900F007AE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E91873AC298AEBA900F007AE /* Main.storyboard */; };
+		E91873B6298AED1000F007AE /* PaddedTextFieldCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91873B5298AED1000F007AE /* PaddedTextFieldCell.swift */; };
+		E91873B8298AF00200F007AE /* PaddedTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91873B7298AF00200F007AE /* PaddedTextField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,8 @@
 		E91873AA298AEBA900F007AE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E91873AD298AEBA900F007AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E91873AF298AEBA900F007AE /* CustomTextField.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CustomTextField.entitlements; sourceTree = "<group>"; };
+		E91873B5298AED1000F007AE /* PaddedTextFieldCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaddedTextFieldCell.swift; sourceTree = "<group>"; };
+		E91873B7298AF00200F007AE /* PaddedTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaddedTextField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +61,8 @@
 				E91873AA298AEBA900F007AE /* Assets.xcassets */,
 				E91873AC298AEBA900F007AE /* Main.storyboard */,
 				E91873AF298AEBA900F007AE /* CustomTextField.entitlements */,
+				E91873B5298AED1000F007AE /* PaddedTextFieldCell.swift */,
+				E91873B7298AF00200F007AE /* PaddedTextField.swift */,
 			);
 			path = CustomTextField;
 			sourceTree = "<group>";
@@ -131,8 +137,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E91873B6298AED1000F007AE /* PaddedTextFieldCell.swift in Sources */,
 				E91873A9298AEBA800F007AE /* ViewController.swift in Sources */,
 				E91873A7298AEBA800F007AE /* AppDelegate.swift in Sources */,
+				E91873B8298AF00200F007AE /* PaddedTextField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
